@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+*{
+    font-size: 18px;
+    font-family: "Inter", sans-serif;
+  font-style: normal;
+  box-sizing: border-box;
+  background-color: black;
+  color:white
+}
+@media screen and (max-width: 1024px) {
+    *{
+        font-size: 16px;
+    }
+}
+@media screen and (max-width: 769px) {
+    * {
+      font-size: 14px;
+      box-sizing: border-box;
+    }
+    body{
+        margin: 10px;  
+        width: 100%;  
+    }
+    #btn_div{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height:40px;
+        margin-bottom: 10px;
+        width: 100%;
+        padding:10px
+    }
+    #search_div > input{
+        width: 100%;
+        height: 100%;
+        padding: 5px 10px;
+        border:1px solid #8E8E8E;
+    }
+  }
+
+body{
+    margin: 10px 20px;    
+}
+button{
+    border:1px solid #8E8E8E;
+    height: 100%;
+    padding:2px
+}
+input::placeholder {
+    color:white
+}
+#btn_div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height:60px;
+    margin-bottom: 10px;
+}
+#btn_div > button{
+    width:19%;
+}
+#search_div{
+    width: 60%;
+    height: 100%;
+}
+#search_div > input{
+    width: 100%;
+    height: 100%;
+    padding: 5px 20px;
+    border:1px solid #8E8E8E;
+}
+
+#table_div{
+    padding:0px 20px;
+    overflow-x: auto;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    overflow-x:auto;    
+  }
+
+  @media screen and (max-width: 1024px) {
+    table {
+      /* overflow-x: auto; */
+      width: 1024px;
+    }
+  }
+td {
+    /* text-align: left; */
+    padding: 20px 0px;
+  }
+
+  tr {
+    border-bottom: 2px solid #8E8E8E;
+    /* justify-content: space-between; */
+    
+}
+.padding_class{
+    margin: 40px;
+  }
+  #first_cell{
+    display: flex;
+    align-items: center;
+    gap:20px
+}
+#first_cell > div{
+    height: 40px;
+    width: 40px;
+    /* object-fit:contain; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+#first_cell > div > img{
+height: 40px;
+width: 40px;
+}
+
+.text_align_end{
+    text-align: end;
+}
+.padding_left{
+    padding-left: 50px;
+}
+#green_text{
+    color:#0FFF50
+}
+#red_text{
+    color:red;
+}
+
+::-webkit-scrollbar {
+    width: 20px; /* Set the width of the scrollbar */
+  }
+
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; /* Set the background color of the scrollbar track */
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: #888; /* Set the color of the scrollbar thumb */
+    border-radius: 10px; /* Set the border radius of the scrollbar thumb */
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; /* Set the color of the scrollbar thumb on hover */
+  }
